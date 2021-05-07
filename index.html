@@ -6,17 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O céu do dia</title>
+    <link rel="stylesheet" href="style/estilo.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
-    <div class="procurar"></div>
-    <h1>O céu de hoje</h1>
-    <script src="script/espaco.js"></script>
-    <input type="text" id="dateSearch" placeholder="Insira uma data">
-    <button id="submit" onclick="call()">Pesquisar</button>
-    <img src="andromeda.jpg" src="" alt="Imagem do espaco">
-    <p id="descricao"></p>
+    <div class="procurar">
+        <h1 style="color: aliceblue;">BUSQUE O SEU CÉU</h1>
+        <script src="script/espaco.js"></script>
+        <input type="text" id="dateSearch" placeholder="Insira uma data">
+        <button id="submit" onclick="call()">Pesquisar</button>
+        <p id="descricao"></p>
+        <img id="spacePic" src="" alt="">
+    </div>
 </body>
 
 </html>
